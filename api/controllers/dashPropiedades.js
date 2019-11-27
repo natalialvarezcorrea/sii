@@ -1,9 +1,9 @@
-const Propiedades = require("../models/propiedades");
+const Propiedades = require("../models/Propiedades");
 const { uploads } = require("../config/environment");
 // const path = require("path");
 
 class PropiedadesController {
-  constructor() {}
+  constructor() { }
   // Se crean propiedades
   async create(req, res, next) {
     const {
